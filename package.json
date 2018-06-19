@@ -27,11 +27,12 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "precommit": "lint-staged && npm test"
+    "eject": "react-scripts eject"
+   
   },
+  "homepage": "https://bmhaskar.github.io/hackathon-registration",
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css,md}": [
+    "src/**/*.{js,jsx,json}": [
       "eslint --fix src",
       "git add"
     ]
